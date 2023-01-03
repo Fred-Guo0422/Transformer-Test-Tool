@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <MSSServer>
+    <!--Set Rest API Server IP or Name -->
+    <IPOrName>CNGUGHUAAPI</IPOrName>
+	<Port>6085</Port>
+    <!--Debug mode, not connect MSS -->
+    <Debug>No</Debug>
+  </MSSServer>
+  <OperationPlan>
+    <!--Set  Equipment number in MSS-->
+    <EquipmentNo>3B1F.02.JIGLINKUNITSN.01</EquipmentNo>
+  </OperationPlan>
+   <PackageSetting>
+	<InvolvedColumnName>SerialNumberAlias</InvolvedColumnName>
+	<UpdateColumn>false</UpdateColumn>
+	<ValidateWorkorder>false</ValidateWorkorder>
+	<WorkorderNo>02</WorkorderNo>
+	<LanguageCode>EN</LanguageCode>
+  </PackageSetting>
+</Config>

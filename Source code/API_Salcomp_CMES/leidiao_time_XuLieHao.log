@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vCheckTester xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="4.0" xmlns="Valor.vCheckTester.xsd" OperatorNumber="root" WorkOrderNumber="">
+<Unit Timestamp="2020-10-24T14:48:38" SerialNumber="00000000" StatusCode="FAIL" DateTimeStart="2020-10-24T14:48:38" DateTimeEnd="2020-10-24T14:48:38" xmlns="Valor.vCheckTester.xsd">
+<Symptom Type="Unknown" Name="obj(CCT)(0.20~1.00)" xmlns="Valor.vCheckTester.xsd">
+<Message xmlns="Valor.vCheckTester.xsd">Uint:P Min:0.2 Max:1.00 Value:</Message>
+<Measurement DateTime="2020-10-24T14:48:38" Value="0.30" MeasurementUnit="P" LowerLimit="0.20" UpperLimit="1.00" ValueUnit="Double" Name="obj(CCT)(0.20~1.00)" StatusCode="FAIL" xmln="Valor.vCheckTester.xsd"/>
+</Symptom>
+<Header TestProgramName="Safty tester" TestHeadNumber="Safty tester" TestProgramVersion="V1.0.0" TestHeadType="Testser Information" TestFixtureNumber="214312312" xmlns="Valor.vCheckTester.xsd"/>
+</Unit>
+</vCheckTester>

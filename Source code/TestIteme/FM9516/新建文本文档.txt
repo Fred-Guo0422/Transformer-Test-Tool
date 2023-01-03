@@ -1,0 +1,49 @@
+LIST:MODE?
+
+触发方式，需要通过 IEEE488 接口向仪器发送“TRIGger:SOURce BUS”命令
+
+DISPlay  ●ORESister ●TRIGger  ●CORRection
+●FREQuency ●BIAS ●INITiate ●COMParator
+●VOLTage  ●FUNCtion ●FETCh?  ●Mass MEMory
+●CURRent  ●LIST ●ABORT ●TRAN
+●AMPLitude ●APERture ●STATus 
+
+TRIGger\n
+TRIG
+*IDN?\n
+*CLS\n
+*RST\n
+
+得到当前测试机种文档
+DISPlay:LINE?
+
+加载
+DISP:PAGE MEAS\n
+
+手动查询16进制结果指令
+trs:data?
+TRS:DATA?
+
+rs232:print on
+RS232:PRINT ON
+
+用于文件的保存与加载
+:LOAD:STATe 命令用于加载已保存的文件。
+命令语法：MMEMory:LOAD:STATe <value>
+mmem:load:trs 1
+MMEM:LOAD:TRS 1
+这里：
+<value> 0 到 39（NR1）的文件序号。
+例如： WrtCmd(“MMEM:LOAD:STAT 1”);
+:STORe:STATe 命令用于保存当前仪器的设置到一个文件。
+命令语法：MMEMory:STOR:STATe <value>,“<string>”
+这里：
+<value> 0 到 39（NR1）的文件序号。
+<string>可以是 ASCII 字符串（最长 16 个）
+例如： WrtCmd(“MMEM:STOR:STAT 1，“Resistor meas””)
+或 WrtCmd(“MMEM:STOR:STAT 1”),。
+
+查询当前显示页面
+DISPlay:PAGE?
+
+

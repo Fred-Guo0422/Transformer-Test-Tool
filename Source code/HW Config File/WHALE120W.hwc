@@ -1,0 +1,2 @@
+SerialPort	COM5	RS232	3,115200,0,8,1	0
+SerialPort	COM6	RS232	4,9600,0,8,1	0

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <MSSServer>
+    <IPOrName>CNGUGHUAAPI</IPOrName>
+	<Port>6082</Port>
+  </MSSServer>
+  <OperationPlan>
+    <EquipmentNo>3B1F.20.CMN.01</EquipmentNo>
+  </OperationPlan>
+  <PackageSetting>
+	<PatternForUnit>[0-9A-Z%-]{3,}</PatternForUnit>
+	<InvolvedColumnName>SerialNumber</InvolvedColumnName>
+	<UpdateColumn>true</UpdateColumn>
+  </PackageSetting>
+</Config>
